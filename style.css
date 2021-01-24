@@ -22,6 +22,7 @@ body, html {
   justify-content: center;
   align-items: center;
   resize: both;
+  /*Styling for the content container*/
 }
 
 .main-wrapper .content-wrapper {
@@ -32,6 +33,7 @@ body, html {
   grid-template-rows: 1fr 1fr;
   gap: 20px;
   resize: both;
+  /*General styling for all reviews*/
 }
 
 .main-wrapper .content-wrapper article {
@@ -40,6 +42,9 @@ body, html {
   resize: both;
   -webkit-resize: both;
   -moz-resize: both;
+  -ms-resize: both;
+  -o-resize: both;
+  /*Styling for quote section*/
 }
 
 .main-wrapper .content-wrapper article header {
